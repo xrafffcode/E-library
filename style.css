@@ -1,0 +1,241 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ .content-3-6 .btn:focus,
+ .content-3-6 .btn:active {
+     outline: none !important;
+ }
+ 
+ .content-3-6 .width-left {
+     width: 0%;
+ }
+ 
+ .content-3-6 .width-right {
+     width: 100%;
+     height: 100%;
+     padding: 8rem 2rem;
+     background-color: #211F2D;
+ }
+ 
+ .content-3-6 .centered {
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%, -50%);
+ }
+ 
+ .content-3-6 .right {
+     width: 100%;
+ }
+ 
+ .content-3-6 .title-text {
+     font: 600 1.875rem/2.25rem Poppins, sans-serif;
+     margin-bottom: 0.75rem;
+     color: #D8D7DF;
+ }
+ 
+ .content-3-6 .caption-text {
+     font: 400 0.875rem/1.75rem Poppins, sans-serif;
+     color: #737182;
+ }
+ 
+ .content-3-6 .input-label {
+     font: 500 1.125rem/1.75rem Poppins, sans-serif;
+     color: #D8D7DF;
+ }
+ 
+ .content-3-6 .div-input {
+     font: 300 1rem/1.5rem Poppins, sans-serif;
+     padding: 1rem 1.25rem;
+     margin-top: 0.75rem;
+     border-radius: 0.75rem;
+     border: 1px solid #292738;
+     background-color: #252332;
+     color: #D8D7DF;
+     transition: 0.3s;
+ }
+ 
+ .content-3-6 .div-input:focus-within {
+     border: 1px solid #2EC49C;
+     color: #D8D7DF;
+     transition: 0.3s;
+ }
+ 
+ .content-3-6 .div-input input::placeholder {
+     color: #4E4B62;
+     transition: 0.3s;
+ }
+ 
+ .content-3-6 .div-input:focus-within input::placeholder {
+     color: #D8D7DF;
+     outline: none;
+     transition: 0.3s;
+ }
+ 
+ .content-3-6 .div-input .icon-toggle-empty-3-6 path,
+ .content-3-6 .div-input:focus-within .icon path {
+     transition: 0.3;
+     fill: #2EC49C;
+     transition: 0.3s;
+ }
+ 
+ .content-3-6 .input-field {
+     font: 300 1rem/1.5rem Poppins, sans-serif;
+     width: 100%;
+     background-color: #252332;
+     border: none;
+     color: #D8D7DF;
+     transition: 0.3s;
+ }
+ 
+ .content-3-6 .input-field:focus {
+     outline: none;
+     transition: 0.3s;
+ }
+ 
+ .content-3-6 .forgot-password {
+     font: 400 0.875rem/1.25rem Poppins, sans-serif;
+     color: #737182;
+     transition: 0.3s;
+     text-decoration: none;
+ }
+ 
+ .content-3-6 .forgot-password:hover {
+     color: #D8D7DF;
+ }
+ 
+ .content-3-6 .btn-fill {
+     font: 500 1.25rem/1.75rem Poppins, sans-serif;
+     background-image: linear-gradient(rgba(91, 203, 173, 1), rgba(39, 194, 153, 1));
+     padding: 0.75rem 1rem;
+     margin-top: 2.25rem;
+     border-radius: 0.75rem;
+     transition: 0.5s;
+ }
+ 
+ .content-3-6 .btn-fill:hover {
+     background-image: linear-gradient(#2EC49C, #2EC49C);
+     transition: 0.5s;
+ }
+ 
+ .content-3-6 .bottom-caption {
+     font: 400 0.875rem/1.25rem Poppins, sans-serif;
+     margin-top: 2rem;
+     color: #737182;
+ }
+ 
+ .content-3-6 .green-bottom-caption {
+     color: #2EC49C;
+     font-weight: 500;
+ }
+ 
+ .content-3-6 .green-bottom-caption:hover {
+     color: #2EC49C;
+     cursor: pointer;
+     text-decoration: underline;
+ }
+ 
+ @media (min-width: 576px) {
+     .content-3-6 .width-right {
+         padding: 8rem 4rem;
+     }
+     .content-3-6 .right {
+         width: 58.333333%;
+     }
+ }
+ 
+ @media (min-width: 768px) {
+     .content-3-6 .right {
+         width: 66.666667%;
+     }
+ }
+ 
+ @media (min-width: 992px) {
+     .content-3-6 .width-left {
+         width: 48%;
+     }
+     .content-3-6 .width-right {
+         width: 52%;
+     }
+     .content-3-6 .right {
+         width: 75%;
+     }
+ }
+ 
+ @media (min-width: 1200px) {
+     .content-3-6 .right {
+         width: 58.333333%;
+         ;
+     }
+ }
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ .empty-3-4 {
+     padding: 5rem 2rem;
+ }
+ 
+ .empty-3-4 .main-img {
+     width: 83.333333%;
+     margin-bottom: 2.5rem;
+     object-fit: cover;
+     object-position: center;
+ }
+ 
+ .empty-3-4 .title-text {
+     font: 600 1.875rem/2.25rem Poppins, sans-serif;
+     letter-spacing: 0.025em;
+     margin-bottom: 0.75rem;
+ }
+ 
+ .empty-3-4 .caption-text {
+     margin-bottom: 3rem;
+     color: #504F5E;
+     font-size: 1rem;
+     letter-spacing: 0.025em;
+     line-height: 1.75rem;
+ }
+ 
+ .empty-3-4 .btn-set {
+     font: 600 1.125rem/1.75rem Poppins, sans-serif;
+     padding: 1rem 2rem;
+     border-radius: 0.75rem;
+     background-color: #6C5ECF;
+     transition: 0.3s;
+ }
+ 
+ .empty-3-4 .btn-set:hover {
+     background-color: #7370FF;
+     transition: 0.3s;
+ }
+ 
+ @media (min-width: 576px) {
+     .empty-3-4 {
+         padding: 7rem 2rem;
+     }
+     .empty-3-4 .main-img {
+         width: auto;
+     }
+ }
+ 
+ @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+ .navbar-1-1.navbar-light .navbar-nav .nav-link {
+     color: #092a33;
+     transition: 0.3s;
+ }
+ 
+ .navbar-1-1.navbar-light .navbar-nav .nav-link.active {
+     font-weight: 500;
+ }
+ 
+ .navbar-1-1 .btn-get-started {
+     border-radius: 20px;
+     padding: 12px 30px;
+     font-weight: 500;
+ }
+ 
+ .navbar-1-1 .btn-get-started-blue {
+     background-color: #0ec8f8;
+     transition: 0.3s;
+ }
+ 
+ .navbar-1-1 .btn-get-started-blue:hover {
+     background-color: #3ad8ff;
+     transition: 0.3s;
+ }
